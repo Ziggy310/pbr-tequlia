@@ -51,19 +51,13 @@ export const SlideCover = () => (
       </div>
 
       {/* Right column - image (desktop) */}
-      <div className="hidden md:block w-[45%] relative">
+      <div className="hidden md:block w-1/2 relative">
         <div
           className="absolute inset-0"
           style={{
             backgroundImage: `url(${coverBottle})`,
             backgroundSize: "cover",
-            backgroundPosition: "center center",
-          }}
-        />
-        <div
-          className="absolute inset-0"
-          style={{
-            background: "linear-gradient(to right, #0D0D0D 0%, transparent 40%)",
+            backgroundPosition: "left center",
           }}
         />
       </div>
