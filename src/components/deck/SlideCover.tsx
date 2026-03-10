@@ -1,21 +1,8 @@
 import { Slide, FadeIn, GoldRule } from "./DeckPrimitives";
-import heroImage from "@/assets/jaripeo-hero.png";
 
 export const SlideCover = () => (
   <Slide bg="primary" glow>
-    {/* Full-bleed background image */}
-    <div
-      className="absolute inset-0 z-0"
-      style={{
-        backgroundImage: `url(${heroImage})`,
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-      }}
-    />
-    {/* Dark overlay for text legibility */}
-    <div className="absolute inset-0 z-0 bg-obsidian/60" />
-
-    <div className="relative z-10 flex flex-col items-center justify-center text-center min-h-screen py-20">
+    <div className="flex flex-col items-center justify-center text-center min-h-screen py-20">
       <FadeIn>
         <p className="font-body text-subtext text-xs tracking-[0.3em] mb-12">CONFIDENTIAL PARTNERSHIP OVERVIEW</p>
       </FadeIn>
