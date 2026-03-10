@@ -8,17 +8,26 @@ export default {
     container: {
       center: true,
       padding: "2rem",
-      screens: {
-        "2xl": "1400px",
-      },
+      screens: { "2xl": "1400px" },
     },
     extend: {
+      fontFamily: {
+        headline: ['"Bebas Neue"', 'sans-serif'],
+        body: ['"Inter"', 'sans-serif'],
+        accent: ['"Playfair Display"', 'serif'],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
         background: "hsl(var(--background))",
+        "background-secondary": "hsl(var(--background-secondary))",
         foreground: "hsl(var(--foreground))",
+        gold: "hsl(var(--gold))",
+        red: "hsl(var(--red))",
+        amber: "hsl(var(--amber))",
+        subtext: "hsl(var(--subtext))",
+        "border-warm": "hsl(var(--border-warm))",
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
@@ -65,20 +74,12 @@ export default {
       },
       keyframes: {
         "accordion-down": {
-          from: {
-            height: "0",
-          },
-          to: {
-            height: "var(--radix-accordion-content-height)",
-          },
+          from: { height: "0" },
+          to: { height: "var(--radix-accordion-content-height)" },
         },
         "accordion-up": {
-          from: {
-            height: "var(--radix-accordion-content-height)",
-          },
-          to: {
-            height: "0",
-          },
+          from: { height: "var(--radix-accordion-content-height)" },
+          to: { height: "0" },
         },
       },
       animation: {
