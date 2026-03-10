@@ -27,14 +27,6 @@ export const SlideClose = () => (
       <FadeIn delay={0.55}>
         <h3 className="font-headline text-gold text-4xl tracking-wide mb-10">LET'S BUILD JARIPEO.</h3>
       </FadeIn>
-      <FadeIn delay={0.6}>
-        <a
-          href="mailto:info@mashbillspirits.com"
-          className="inline-block bg-red hover:bg-red/90 text-foreground font-body font-semibold text-base px-10 py-4 rounded-full transition-colors"
-        >
-          REACH OUT
-        </a>
-      </FadeIn>
       <div className="mt-16 space-y-1">
         <FadeIn delay={0.7}>
           <p className="font-body text-subtext text-xs">MashbillSpirits.com | Confidential</p>
