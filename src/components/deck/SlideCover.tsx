@@ -17,12 +17,6 @@ export const SlideCover = () => (
             backgroundPosition: "center center",
           }}
         />
-        <div
-          className="absolute inset-0"
-          style={{
-            background: "linear-gradient(to top, #0D0D0D 0%, transparent 40%)",
-          }}
-        />
       </div>
 
       {/* Left column - text */}
