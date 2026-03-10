@@ -15,7 +15,7 @@ export const SlideStory = () => (
     <div className="space-y-3 mb-8">
       {[
         "14 MILLION hardcore Mexican and Latino fans among the most passionate in the sport",
-        "EXCLUSIVE SPANISH-LANGUAGE DEAL with TelevisaUnivision/TUDN and ViX — U.S., Mexico, and Latin America",
+        "PBR ACTIVELY BROADCASTS IN SPANISH to audiences across the U.S., Mexico, and Latin America — a direct investment in the sport's massive Latino fanbase",
         "BRAZILIAN AND MEXICAN RIDERS dominate the standings. The sport's culture is as Latin as it is American.",
       ].map((text, i) => (
         <FadeIn key={i} delay={0.2 + i * 0.1}>
