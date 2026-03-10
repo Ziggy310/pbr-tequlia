@@ -1,14 +1,23 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import { SlideCover } from "@/components/deck/SlideCover";
+import { SlideCulture } from "@/components/deck/SlideCulture";
+import { SlideStory } from "@/components/deck/SlideStory";
+import { SlideMasterPlay } from "@/components/deck/SlideMasterPlay";
+import { SlideFit } from "@/components/deck/SlideFit";
+import { SlideWhyMashbill } from "@/components/deck/SlideWhyMashbill";
+import { SlideCase } from "@/components/deck/SlideCase";
+import { SlideClose } from "@/components/deck/SlideClose";
 
-const Index = () => {
-  return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
-    </div>
-  );
-};
+const Index = () => (
+  <main className="w-full overflow-x-hidden">
+    <SlideCover />
+    <SlideCulture />
+    <SlideStory />
+    <SlideMasterPlay />
+    <SlideFit />
+    <SlideWhyMashbill />
+    <SlideCase />
+    <SlideClose />
+  </main>
+);
 
 export default Index;
