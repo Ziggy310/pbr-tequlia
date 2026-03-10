@@ -26,7 +26,7 @@ export const SlideCover = () => (
       </div>
 
       {/* Left column - text */}
-      <div className="w-full md:w-[55%] flex flex-col justify-center px-6 py-16 md:pl-12 md:pr-8">
+      <div className="w-full md:w-1/2 flex flex-col justify-center px-6 py-16 md:pl-12 md:pr-8">
         <div>
           <FadeIn>
             <p className="font-body text-subtext text-xs tracking-[0.3em] mb-12">CONFIDENTIAL PARTNERSHIP OVERVIEW</p>
