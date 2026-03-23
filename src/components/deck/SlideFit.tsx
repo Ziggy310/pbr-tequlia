@@ -3,6 +3,9 @@ import { Slide, FadeIn } from "./DeckPrimitives";
 export const SlideFit = () => (
   <Slide bg="primary">
     <FadeIn>
+      <h2 className="font-display text-gold text-4xl md:text-[52px] leading-none mb-3">TEST WITH REPOSADO</h2>
+    </FadeIn>
+    <FadeIn delay={0.02}>
       <p className="font-body text-subtext text-xs tracking-[0.3em] mb-4">WHY IT WORKS</p>
     </FadeIn>
 
