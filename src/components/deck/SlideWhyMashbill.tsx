@@ -45,7 +45,7 @@ export const SlideWhyMashbill = () => (
 
       <div className="mt-4">
         <div className="h-px w-full mb-4" style={{ backgroundColor: "rgba(201,160,82,0.2)" }} />
-        <p className="font-body text-center" style={{ fontSize: "11px", color: "rgba(255,255,255,0.5)" }}>
+        <p className="font-body text-center" style={{ fontSize: "13px", color: "rgba(255,255,255,0.5)" }}>
           Official PBR trademarks, event names, and rider marks can be incorporated on any drop at PBR's direction.
         </p>
       </div>
