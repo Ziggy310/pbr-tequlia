@@ -6,6 +6,7 @@ export const SlideWhyMashbill = () => (
   <Slide bg="secondary">
     <div className="relative z-10">
       <FadeIn>
+        <p className="font-body text-xs tracking-[0.25em] uppercase text-subtext mb-2">Limited Edition</p>
         <h2 className="font-headline text-gold text-[52px] md:text-[60px] tracking-wider leading-none mb-8">THE DROPS</h2>
       </FadeIn>
 
