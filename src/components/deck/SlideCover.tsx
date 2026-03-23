@@ -37,11 +37,6 @@ export const SlideCover = () => (
             </p>
           </FadeIn>
         </div>
-        <div className="mt-auto pt-20">
-          <FadeIn delay={0.4}>
-            <p className="font-body text-subtext text-xs tracking-widest">MashbillSpirits.com</p>
-          </FadeIn>
-        </div>
       </div>
 
       {/* Right column - image (desktop) */}
