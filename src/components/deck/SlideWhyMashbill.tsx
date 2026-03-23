@@ -6,7 +6,7 @@ export const SlideWhyMashbill = () => (
   <Slide bg="secondary">
     <div className="relative z-10">
       <FadeIn>
-        <p className="font-body text-subtext text-xs tracking-[0.3em] text-center mb-8">2 DROPS</p>
+        <h2 className="font-headline text-gold text-[52px] md:text-[60px] tracking-wider leading-none mb-8">THE DROPS</h2>
       </FadeIn>
 
       <div className="relative grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-0">
@@ -16,7 +16,7 @@ export const SlideWhyMashbill = () => (
         {/* Left column — El Campeón */}
         <FadeIn delay={0.1}>
           <div className="flex flex-col items-center md:pr-8">
-            <img src={elCampeonBottle} alt="El Campeón bottle" className="h-[340px] object-contain mb-6" />
+            <img src={elCampeonBottle} alt="El Campeón bottle" className="h-[480px] w-full object-contain mb-6" />
             <div className="border-l-4 border-gold bg-background rounded-lg p-6 md:p-8 w-full">
               <span className="inline-block font-body text-xs tracking-[0.2em] text-background bg-gold rounded-full px-4 py-1 mb-4 font-semibold">DROP 1 — MAY</span>
               <h3 className="font-headline text-foreground text-3xl md:text-4xl tracking-wide mb-3">EL CAMPEÓN</h3>
@@ -30,7 +30,7 @@ export const SlideWhyMashbill = () => (
         {/* Right column — El Hombre */}
         <FadeIn delay={0.15}>
           <div className="flex flex-col items-center md:pl-8">
-            <img src={elHombreBottle} alt="El Hombre bottle" className="h-[340px] object-contain mb-6" />
+            <img src={elHombreBottle} alt="El Hombre bottle" className="h-[480px] w-full object-contain mb-6" />
             <div className="border-l-4 border-gold bg-background rounded-lg p-6 md:p-8 w-full">
               <span className="inline-block font-body text-xs tracking-[0.2em] text-background bg-gold rounded-full px-4 py-1 mb-4 font-semibold">DROP 2 — JULY</span>
               <h3 className="font-headline text-foreground text-3xl md:text-4xl tracking-wide mb-3">EL HOMBRE</h3>
