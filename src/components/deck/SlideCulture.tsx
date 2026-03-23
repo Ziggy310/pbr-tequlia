@@ -39,7 +39,7 @@ export const SlideCulture = () => (
             MASHBILL HAS BUILT THE INFRASTRUCTURE &amp; HAS THE EXPERTISE
           </h4>
           <p className="font-body text-foreground text-sm leading-relaxed">
-            Production, Direct-to-Fan compliance network (47 states), national retail distribution, e-commerce, fulfillment — all in place. Ready to go.
+            Multi-Tier Multi-Spirit Production, Direct-to-Fan compliance network (47 states), national retail distribution, e-commerce, fulfillment — all in place. Ready to go.
           </p>
         </div>
       </FadeIn>
