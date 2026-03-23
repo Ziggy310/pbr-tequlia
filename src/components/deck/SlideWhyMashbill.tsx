@@ -16,7 +16,7 @@ export const SlideWhyMashbill = () => (
         {/* Left column — El Campeón */}
         <FadeIn delay={0.1}>
           <div className="flex flex-col items-center md:pr-8">
-            <img src={elCampeonBottle} alt="El Campeón bottle" className="h-[340px] object-contain mb-6" />
+            <img src={elCampeonBottle} alt="El Campeón bottle" className="h-[480px] w-full object-contain mb-6" />
             <div className="border-l-4 border-gold bg-background rounded-lg p-6 md:p-8 w-full">
               <span className="inline-block font-body text-xs tracking-[0.2em] text-background bg-gold rounded-full px-4 py-1 mb-4 font-semibold">DROP 1 — MAY</span>
               <h3 className="font-headline text-foreground text-3xl md:text-4xl tracking-wide mb-3">EL CAMPEÓN</h3>
