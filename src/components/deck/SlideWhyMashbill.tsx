@@ -34,10 +34,10 @@ export const SlideWhyMashbill = () => (
             <img src={gamblerDaysPlaceholder} alt="Gambler Days — Coming August" className="h-[480px] w-full object-contain mb-6" loading="lazy" />
             <div className="border-l-4 border-gold bg-background rounded-lg p-6 md:p-8 w-full">
               <span className="inline-block font-body text-xs tracking-[0.2em] text-background bg-gold rounded-full px-4 py-1 mb-4 font-semibold">DROP 2 — AUGUST</span>
-              <h3 className="font-headline text-foreground text-3xl md:text-4xl tracking-wide mb-3">GAMBLER DAYS</h3>
+              <h3 className="font-headline text-foreground text-3xl md:text-4xl tracking-wide mb-3">DEAD MAN'S HAND</h3>
               <div className="h-px bg-gold opacity-70 mb-3" />
               <p className="font-body font-bold text-foreground text-base mb-1">LIMITED EDITION SERIES</p>
-              <p className="font-accent text-subtext text-sm">Gambler Days • August 23–24 • Austin, TX</p>
+              <p className="font-accent text-subtext text-sm">Dead Man's Hand • August 23–24 • Austin, TX</p>
             </div>
           </div>
         </FadeIn>
